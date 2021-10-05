@@ -136,7 +136,7 @@ def experiment(guess_, block_size_, d_):
 cnt = 0
 for i in range(0, 200):
 	print("round ", i)
-	if experiment(100, 30, 90) == True:
+	if experiment(40, 30, 90) == True:
 		cnt = cnt + 1
 	print("success ", cnt, "times")
 print("success ", cnt, "times")
