@@ -68,7 +68,7 @@ def experiment(guess_, block_size_, d_):
 	subset_rows.reverse()
 
 
-	d = d_ # number of signatures
+	d = d_ # lattice dimension
 	M = identity_matrix(d + 1)
 	last_row = []
 	v = []
@@ -134,9 +134,9 @@ def experiment(guess_, block_size_, d_):
 	return False
 
 cnt = 0
-for i in range(0, 100):
+for i in range(0, 200):
 	print("round ", i)
-	if experiment(40, 30, 100) == True:
+	if experiment(100, 30, 90) == True:
 		cnt = cnt + 1
 	print("success ", cnt, "times")
 print("success ", cnt, "times")
