@@ -34,6 +34,7 @@ This is the code for Section 9.4 of the paper. By combining our technique of gue
 - https://eprint.iacr.org/2021/455
 - https://eprint.iacr.org/2020/1540
 - https://eprint.iacr.org/2020/728
+- https://minerva.crocs.fi.muni.cz/
 - https://tpm.fail/
 - https://ecc2017.cs.ru.nl/slides/ecc2017-tibouchi.pdf
 - https://simons.berkeley.edu/talks/using-lattices-cryptanalysis
