@@ -15,13 +15,13 @@ IACR Transactions on Cryptographic Hardware and Embedded Systems (TCHES), 2022/1
 This script implements the typical standard way to perform lattice attacks on (EC)DSA. Standard techniques such as Recentering are already implemented.
 
 # guessing_secret_attack.sage
-This is the code for Section 4 of the paper. By eumerating some bits of the secret key, we are able to improve the success rate.
+This is the code for Section 4 of the paper. By enumerating some bits of the secret key, we are able to improve the success rate.
 
 # guess_nonce_attack.sage
-This is the code for Section 5 of the paper. By eumerating more bits of nonces of some signatures, we are able to improve the success rate.
+This is the code for Section 5 of the paper. By enumerating more bits of nonces of some signatures, we are able to improve the success rate.
 
 # utilize_more_data_attack.sage
-This is the code for Section 6 of the paper. By eumerating more bits of nonces of some signatures, we are able to improve the success rate.
+This is the code for Section 6 of the paper. By filtering signatures and get smaller t, we are able to improve the success rate.
 
 # data_tpmfail_stm.csv
 This is the TPM-FAIL dataset. The first row of the dataset contains the
