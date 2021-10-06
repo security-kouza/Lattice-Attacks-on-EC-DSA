@@ -29,3 +29,11 @@ public key and the message being signed. Each of the other rows contains (r, s) 
 
 # TPM_FAIL_attack.sage
 This is the code for Section 9.4 of the paper. By combining our technique of guessing bits of the secret key with the geometric assignment of leakage in Minerva, we are able to recover the secret key.
+
+# Further Reading
+- https://eprint.iacr.org/2021/455
+- https://eprint.iacr.org/2020/1540
+- https://eprint.iacr.org/2020/728
+- https://tpm.fail/
+- https://ecc2017.cs.ru.nl/slides/ecc2017-tibouchi.pdf
+- https://simons.berkeley.edu/talks/using-lattices-cryptanalysis
