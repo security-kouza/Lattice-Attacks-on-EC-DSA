@@ -49,11 +49,12 @@ def experiment(qlen_, l_, d_, c_, beta_):
 		C = M.BKZ(block_size = beta_)
 		for i in range(0, d + 2):
 			temp = abs(floor(C[i][d]))
-			if temp + lsb == alpha or temp + lsb + alpha == q:
+			if temp + lsb == alpha or q - temp + lsb == alpha:
 				print("finding secret key successfully in row(index from 0) ", i)
 				return True
-	return False	
 	print ("failed to find the secret key")
+	return False	
+	
 
 success_cnt = 0
 for i in range(0, 10):	

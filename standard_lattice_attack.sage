@@ -41,8 +41,8 @@ def experiment(qlen_, l_, d_, beta_):
 		if temp == alpha or temp + alpha == q:
 			print("finding secret key successfully in row(index from 0) ", i)
 			return True
-	return False	
 	print ("failed to find the secret key")
+	return False	
 
 success_cnt = 0
 for i in range(0, 10):	
